@@ -1,7 +1,7 @@
 import React, { createContext, useState, useEffect } from "react";
 import axios from "axios";
 // import BASE_URL from "../api";
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://expense-tracker-ct27.onrender.com/api" || "http://localhost:5000/api";
 
 const AuthContext = createContext();
 
